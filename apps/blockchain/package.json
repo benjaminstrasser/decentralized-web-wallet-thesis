@@ -1,0 +1,21 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.ts --network localhost",
+    "build": "hardhat compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.3"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "ethers": "^5.7.2"
+  }
+}
