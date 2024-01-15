@@ -176,7 +176,7 @@
 						<td>{item[0].from}</td>
 						<td>{item[0].to}</td>
 						<td>{item[0].gas}</td>
-						<td>{decodedFunctions[index].signature}</td>
+						<td>{decodedFunctions[index]?.signature}</td>
 						<td>
 							{#if responses[index]}
 								Signed
